@@ -2,7 +2,7 @@
 
 # Dysthe-Lo-Mei equation
 
-The present repository contains a Fourier-type pseudo-spectral solver for Dysthe-Lo-Mei equation as described in the references cited below. More precisely, we solve the dimensionless version of this equation, which corresponds to Equations (2.6) - (2.9) from the Lo & Mei (1985) paper. A very high order Runge-Kutta scheme is used for time integration. We employ also the integrating factor technique to slightly remove the stiffness. The work of this code is illustrated on a simple evolution of the ground state to the low order NLS equation. This solution can be computed analytically.
+The present repository contains a Fourier-type pseudo-spectral solver for Dysthe-Lo-Mei equation as described in the references cited below. More precisely, we solve the dimensionless version of this equation, which corresponds to Equations (2.6) - (2.9) from the Lo & Mei (1985, JFM) paper mentioned below. A very high order 9(8) embedded Runge-Kutta method is used for time integration. We employ also the integrating factor technique to slightly remove the stiffness of the second order derivative terms along with the adaptive time step selection. The work of this code is illustrated on a simple evolution of the ground state to the low order underlying NLS equation. This solution can be computed analytically and set as the initial condition.
 
 ## Acknowledgements
 
